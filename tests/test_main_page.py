@@ -8,7 +8,7 @@ def test_go_to_login_page(browser):
     page.open()
     page.go_to_login_page()
     time.sleep(3)
-    browser.save_screenshot('./Selenium_UI_Pet/result_login_page.png')
+    browser.save_screenshot('result_login_page.png')
 
 
 def test_ddl(browser):
@@ -19,7 +19,7 @@ def test_ddl(browser):
     time.sleep(1)
     page.ddl_select()
     time.sleep(3)
-    browser.save_screenshot('./Selenium_UI_Pet/result_ddl_select.png')
+    browser.save_screenshot('result_ddl_select.png')
 
 
 def test_filter_by_name(browser):
@@ -28,4 +28,4 @@ def test_filter_by_name(browser):
     page.open()
     page.filter_by_name()
     time.sleep(3)
-    browser.save_screenshot('./Selenium_UI_Pet/result_filter_by_name.png')
+    browser.save_screenshot('result_filter_by_name.png')
