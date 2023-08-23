@@ -14,7 +14,7 @@ def test_details(browser):
     time.sleep(1)
     page.pet_details()
     time.sleep(3)
-    browser.save_screenshot('./Selenium_UI_Pet/result_pet_details.png')
+    browser.save_screenshot('result_pet_details.png')
 
 
 @pytest.mark.details
