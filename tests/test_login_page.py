@@ -12,4 +12,4 @@ def test_go_to_login(browser):
     page.enter_password()
     page.submit_login()
     time.sleep(5)
-    browser.save_screenshot("./Selenium_UI_Pet/result_login.png")
+    browser.save_screenshot("result_login.png")
